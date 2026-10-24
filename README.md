@@ -17,7 +17,7 @@ Note: The objects that make up the bowling alley don’t need to have a rigidbod
 ## Task 2: Create the Physics Enabled Ball and Pins
 The bowling alley scene you have been given is missing two very important objects: the ball and the pins! In this task, you will fix this by using the “bowlingball” and “pin” models provided in the “Bowling Alley Assets” folder to add a ball and ten pins to the scene. To complete the task, you should ‘physics enable’ these objects by adding an appropriately configured primitive collider and rigidbody to each. 
 
-You might find it useful to snap objects to grid when placing the pins. Select an object > Change tool handle to Global > Enable Grid snap (The button next to the global button). Grid distance can be edited by going to Edit > Grid and snap settings.
+You might find it useful to snap objects to grid when placing the pins. [In case you forgot how to grid snap!](https://github.com/UoY-IM-MPIE/mpie-p31-designing-environments) 
 
 ## Task 3: Create a Script to Throw the Ball
 In this task you are going to create a script that propels the bowling ball down the lane and into the pins. Your script should allow the user to control how the ball is propelled down the lane using the following controls:
